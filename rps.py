@@ -7,7 +7,7 @@ import time
 import requests
 
 
-TOKEN = os.environ.get('TELEGRAM_BOT_RPS_TOKEN')
+TOKEN = os.environ.get('321381644:AAGDwx55JffC7gOV5vgKALI375qF8bkBYbe')
 BASE_URL = 'https://api.telegram.org/bot{token}'.format(token=TOKEN)
 GET_UPDATES_URL = '{base}/getUpdates'.format(base=BASE_URL)
 SEND_MESSAGE_URL = '{base}/sendMessage'.format(base=BASE_URL)
